@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "fe exercises",
   "scripts": {
-    "test": "test",
+    "test": "echo 'test'",
     "dev": "vuepress dev .",
     "build": "vuepress build .",
     "deploy": "sh ./deploy.sh"
