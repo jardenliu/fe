@@ -1,5 +1,6 @@
 module.exports = {
-  title: '前端进阶练习',
+  title: '前端练习',
+  base: '/fe/',
   description: '日常练习',
   themeConfig: {
     sidebar: [

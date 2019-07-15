@@ -4,7 +4,9 @@
   "description": "fe exercises",
   "scripts": {
     "test": "test",
-    "build": "vuepress build ."
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "deploy": "sh ./deploy.sh"
   },
   "repository": {
     "type": "git",
