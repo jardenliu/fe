@@ -19,6 +19,8 @@ script:
 after_script:
   - cd .vuepress/dist
 
+  - ls
+
   - echo 'www.jarden.vip' > CNAME
 
   - git config user.name "${U_NAME}"
@@ -31,7 +33,7 @@ after_script:
 
   - git commit -m "deploy"
 
-  - git push -f https://${GH_TOKEN}@${GH_REPO}" master:${P_BRANCH}
+  - git push -f "https://${GH_TOKEN}@${GH_REPO}" master:${P_BRANCH}
 
 branches:
   only:
