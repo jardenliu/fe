@@ -1,0 +1,23 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "fe exercises",
+  "scripts": {
+    "test": "test",
+    "build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jardenliu/fe.git"
+  },
+  "keywords": [
+    "front",
+    "end"
+  ],
+  "author": "jardenliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jardenliu/fe/issues"
+  },
+  "homepage": "https://github.com/jardenliu/fe#readme"
+}
