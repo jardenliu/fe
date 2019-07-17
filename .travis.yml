@@ -10,9 +10,6 @@ cache:
 install:
   - npm install
 
-before_script:
-  - npm install -g vuepress
-
 script:
   - npm run build
 
