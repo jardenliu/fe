@@ -25,15 +25,24 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    sidebar: [
+    nav: [
       {
-        title: '简介',
-        children: ['/']
+        text: '首页',
+        link: '/'
       },
       {
-        title: 'CSS',
-        children: [['/css/switch/', '开关']]
+        text: 'CSS',
+        link: '/css/'
       }
-    ]
+    ],
+    sidebar: {
+      '/css/': [
+        {
+          title: 'CSS练习',
+          children: ['', 'switch/']
+        }
+      ]
+      // '/': ['']
+    }
   }
 }
