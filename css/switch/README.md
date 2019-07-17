@@ -7,11 +7,12 @@
 - 用 label 和 CheckBox 实现一个类 iOS 样式开关.
 
 ::: demo
+
 <template>
-<label class="switch">
-<input type="checkbox" checked />
-<span></span>
-</label>
+  <label class="switch">
+    <input type="checkbox" checked />
+    <span></span>
+  </label>
 </template>
 
 <style>
