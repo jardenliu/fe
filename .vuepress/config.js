@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     [
-      'demo-code',
+      'code-doc',
       {
         showText: '显示代码',
         hideText: '隐藏代码',
