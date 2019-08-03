@@ -39,7 +39,7 @@ module.exports = {
       '/css/': [
         {
           title: 'CSS练习',
-          children: ['', 'switch/']
+          children: ['', 'switch/', 'button/']
         }
       ]
       // '/': ['']
