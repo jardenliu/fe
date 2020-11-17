@@ -9,8 +9,8 @@ module.exports = {
       test: /DemoAndCode\.vue$/,
       enforce: 'pre',
       use: {
-        loader: 'fix-demo-code-loader'
-      }
+        loader: 'fix-demo-code-loader',
+      },
     })
   },
   plugins: [
@@ -20,29 +20,29 @@ module.exports = {
         showText: '显示代码',
         hideText: '隐藏代码',
         minHeight: 0,
-        onlineBtns: { codepen: true, jsfiddle: false, codesandbox: false }
-      }
-    ]
+        onlineBtns: { codepen: true, jsfiddle: false, codesandbox: false },
+      },
+    ],
   ],
   themeConfig: {
     nav: [
       {
         text: '首页',
-        link: '/'
+        link: '/',
       },
       {
         text: 'CSS',
-        link: '/css/'
-      }
+        link: '/css/',
+      },
     ],
     sidebar: {
       '/css/': [
         {
           title: 'CSS练习',
-          children: ['', 'switch/', 'button/']
-        }
-      ]
+          children: ['', 'switch/', 'button/', 'scroll/'],
+        },
+      ],
       // '/': ['']
-    }
-  }
+    },
+  },
 }
