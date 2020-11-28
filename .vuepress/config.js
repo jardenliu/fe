@@ -34,12 +34,22 @@ module.exports = {
         text: 'CSS',
         link: '/css/',
       },
+      {
+        text: 'JavaScript',
+        link: '/js/',
+      },
     ],
     sidebar: {
       '/css/': [
         {
           title: 'CSS练习',
           children: ['', 'switch/', 'button/', 'scroll/'],
+        },
+      ],
+      '/js/': [
+        {
+          title: 'JS练习',
+          children: ['', 'observer/'],
         },
       ],
       // '/': ['']

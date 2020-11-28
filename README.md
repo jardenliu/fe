@@ -3,9 +3,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jardenliu/fe/blob/master/LICENSE)
 
-## CSS
+## 分类
 
-- [开关](/css/switch/)
+- [CSS](/css/)
+- [JavaScript](/js/)
 
 ### 🏠 [主页](https://www.jarden.vip/fe)
 
