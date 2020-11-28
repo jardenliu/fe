@@ -6,6 +6,7 @@
     "test": "echo 'test'",
     "dev": "vuepress dev .",
     "build": "vuepress build .",
+    "cname": "echo 'www.jarden.vip' > .vuepress/dist/CNAME",
     "deploy": "sh ./deploy.sh"
   },
   "repository": {
