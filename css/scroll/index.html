@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>滚动 | 前端练习</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="日常练习">
+    
+    <link rel="preload" href="/fe/assets/css/0.styles.c8392b5a.css" as="style"><link rel="preload" href="/fe/assets/js/app.ca80623f.js" as="script"><link rel="preload" href="/fe/assets/js/2.1b7a1799.js" as="script"><link rel="preload" href="/fe/assets/js/9.e998c9a8.js" as="script"><link rel="prefetch" href="/fe/assets/js/10.ea068d9d.js"><link rel="prefetch" href="/fe/assets/js/11.e494c8fd.js"><link rel="prefetch" href="/fe/assets/js/12.885ce367.js"><link rel="prefetch" href="/fe/assets/js/13.53d55160.js"><link rel="prefetch" href="/fe/assets/js/14.f945eb5a.js"><link rel="prefetch" href="/fe/assets/js/3.6d5989c8.js"><link rel="prefetch" href="/fe/assets/js/4.c58ac483.js"><link rel="prefetch" href="/fe/assets/js/5.a018e538.js"><link rel="prefetch" href="/fe/assets/js/6.6dae01c1.js"><link rel="prefetch" href="/fe/assets/js/7.2415fabf.js"><link rel="prefetch" href="/fe/assets/js/8.dd33c073.js">
+    <link rel="stylesheet" href="/fe/assets/css/0.styles.c8392b5a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fe/" class="home-link router-link-active"><!----> <span class="site-name">前端练习</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fe/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/fe/css/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/fe/js/" class="nav-link">
+  JavaScript
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fe/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/fe/css/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/fe/js/" class="nav-link">
+  JavaScript
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>CSS练习</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fe/css/" aria-current="page" class="sidebar-link">目录</a></li><li><a href="/fe/css/switch/" class="sidebar-link">开关</a></li><li><a href="/fe/css/button/" class="sidebar-link">按钮</a></li><li><a href="/fe/css/scroll/" aria-current="page" class="active sidebar-link">滚动</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/fe/css/scroll/#snap" class="sidebar-link">Snap</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="滚动"><a href="#滚动" class="header-anchor">#</a> 滚动</h1> <blockquote><p>滚动相关的css</p></blockquote> <h2 id="snap"><a href="#snap" class="header-anchor">#</a> Snap</h2> <ul><li>纯css实现简单swiper (上下滑动)</li></ul> <div class="code-block" data-v-4d184710><div class="code-block__source" data-v-4d184710>  <ul class="swiper" data-v-4d184710><li class="block" data-v-4d184710>1</li> <li class="block" data-v-4d184710>2</li> <li class="block" data-v-4d184710>3</li> <li class="block" data-v-4d184710>4</li> <li class="block" data-v-4d184710>5</li></ul></div> <div class="code-block__meta" data-v-4d184710><!----> <div class="code-block__inner-code highlight" data-v-4d184710><pre data-v-4d184710><code class="html xml hljs " data-v-4d184710><span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>template</span>&gt;</span>
+    <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>ul</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;swiper&quot;</span>&gt;</span>
+        <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>li</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;block&quot;</span>&gt;</span>1<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>li</span>&gt;</span>
+        <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>li</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;block&quot;</span>&gt;</span>2<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>li</span>&gt;</span>
+        <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>li</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;block&quot;</span>&gt;</span>3<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>li</span>&gt;</span>
+        <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>li</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;block&quot;</span>&gt;</span>4<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>li</span>&gt;</span>
+        <span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>li</span> <span class="hljs-attr" data-v-4d184710>class</span>=<span class="hljs-string" data-v-4d184710>&quot;block&quot;</span>&gt;</span>5<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>li</span>&gt;</span>
+    <span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>ul</span>&gt;</span>
+<span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>template</span>&gt;</span>
+
+<span class="hljs-tag" data-v-4d184710>&lt;<span class="hljs-name" data-v-4d184710>style</span> <span class="hljs-attr" data-v-4d184710>lang</span>=<span class="hljs-string" data-v-4d184710>&quot;stylus&quot;</span>&gt;</span><span class="css" data-v-4d184710>
+<span class="hljs-selector-class" data-v-4d184710>.swiper</span>
+    <span class="hljs-selector-tag" data-v-4d184710>list-style-type</span> <span class="hljs-selector-tag" data-v-4d184710>none</span>
+    <span class="hljs-selector-tag" data-v-4d184710>height</span> 100<span class="hljs-selector-tag" data-v-4d184710>px</span>
+    <span class="hljs-selector-tag" data-v-4d184710>overflow</span> <span class="hljs-selector-tag" data-v-4d184710>auto</span>
+    <span class="hljs-selector-tag" data-v-4d184710>display</span> <span class="hljs-selector-tag" data-v-4d184710>flex</span>
+    <span class="hljs-selector-tag" data-v-4d184710>flex-direction</span> <span class="hljs-selector-tag" data-v-4d184710>column</span>
+    <span class="hljs-selector-tag" data-v-4d184710>padding</span> 0
+    <span class="hljs-selector-tag" data-v-4d184710>width</span> 100<span class="hljs-selector-tag" data-v-4d184710>px</span>
+    <span class="hljs-selector-tag" data-v-4d184710>scroll-snap-type</span> <span class="hljs-selector-tag" data-v-4d184710>y</span> <span class="hljs-selector-tag" data-v-4d184710>mandatory</span>
+
+<span class="hljs-selector-class" data-v-4d184710>.block</span>
+    <span class="hljs-selector-tag" data-v-4d184710>width</span> 100<span class="hljs-selector-tag" data-v-4d184710>px</span>
+    <span class="hljs-selector-tag" data-v-4d184710>height</span> 100<span class="hljs-selector-tag" data-v-4d184710>px</span>
+    <span class="hljs-selector-tag" data-v-4d184710>display</span> <span class="hljs-selector-tag" data-v-4d184710>flex</span>
+    <span class="hljs-selector-tag" data-v-4d184710>flex-shrink</span> 0
+    <span class="hljs-selector-tag" data-v-4d184710>align-items</span> <span class="hljs-selector-tag" data-v-4d184710>center</span>
+    <span class="hljs-selector-tag" data-v-4d184710>justify-content</span> <span class="hljs-selector-tag" data-v-4d184710>center</span>
+    <span class="hljs-selector-tag" data-v-4d184710>scroll-snap-align</span> <span class="hljs-selector-tag" data-v-4d184710>start</span>
+    &amp;<span class="hljs-selector-pseudo" data-v-4d184710>:nth-child(1)</span>
+        <span class="hljs-selector-tag" data-v-4d184710>background</span> <span class="hljs-selector-tag" data-v-4d184710>red</span>
+    &amp;<span class="hljs-selector-pseudo" data-v-4d184710>:nth-child(2)</span>
+        <span class="hljs-selector-tag" data-v-4d184710>background</span> <span class="hljs-selector-tag" data-v-4d184710>pink</span>
+    &amp;<span class="hljs-selector-pseudo" data-v-4d184710>:nth-child(3)</span>
+        <span class="hljs-selector-tag" data-v-4d184710>background</span> <span class="hljs-selector-tag" data-v-4d184710>green</span>
+    &amp;<span class="hljs-selector-pseudo" data-v-4d184710>:nth-child(4)</span>
+        <span class="hljs-selector-tag" data-v-4d184710>background</span> <span class="hljs-selector-tag" data-v-4d184710>blue</span>
+    &amp;<span class="hljs-selector-pseudo" data-v-4d184710>:nth-child(5)</span>
+        <span class="hljs-selector-tag" data-v-4d184710>background</span> <span class="hljs-selector-tag" data-v-4d184710>yellow</span>
+</span><span class="hljs-tag" data-v-4d184710>&lt;/<span class="hljs-name" data-v-4d184710>style</span>&gt;</span>
+</code></pre></div></div> <div class="code-block__control" data-v-4d184710><i class="element-iconfont el-icon-down" data-v-4d184710></i> <!----></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/fe/css/button/" class="prev">
+        按钮
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/fe/assets/js/app.ca80623f.js" defer></script><script src="/fe/assets/js/2.1b7a1799.js" defer></script><script src="/fe/assets/js/9.e998c9a8.js" defer></script>
+  </body>
+</html>
