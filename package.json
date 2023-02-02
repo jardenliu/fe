@@ -26,6 +26,6 @@
   "devDependencies": {
     "vuepress": "^1.0.2",
     "vuepress-plugin-code-doc": "0.0.1-alpha",
-    "vuepress-plugin-demo-code": "0.3.5"
+    "vuepress-plugin-demo-code": "1.0.0"
   }
 }
